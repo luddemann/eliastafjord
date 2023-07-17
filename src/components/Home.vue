@@ -21,6 +21,6 @@ const clickOnElias = () => {
 <template>
   <div class="bg-gray-800 w-screen h-screen relative">
     <img @click="clickOnElias" :class="clicked ? 'animate-spin' : ''" class="w-full h-full" :src="Elias" alt="Her har du Elias Tafjord">
-    <p class="text-white absolute top-2/4 left-6 sm:left-10 lg:left20 text-xl sm:text-2xl md:text-3xl lg:text-6xl font-bold">Trykk: {{ count && count + '👏' }}</p>
+    <p class="text-white absolute top-1/4 sm:top-2/4 left-6 sm:left-10 lg:left20 text-xl sm:text-2xl md:text-3xl lg:text-6xl font-bold">Trykk: {{ count && count + '👏' }}</p>
   </div>
 </template>
