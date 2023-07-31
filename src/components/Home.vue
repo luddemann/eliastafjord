@@ -3,7 +3,7 @@ import Elias from '../assets/Emne-min.png'
 import Beat from '../assets/808.mp3'
 import { watch, ref } from 'vue'
 
-const count = ref(99)
+const count = ref(0)
 const text = ref('👏')
 const clicked = ref(false)
 
