@@ -18,6 +18,7 @@ const clickOnElias = () => {
 }
 
 watch(() => count.value, () => {
+  if (count.value !== 69 || count.value !== 100 || count.value !== 420 || count.value !== 1337 || count.value !== 1000000) text.value = '👏'
   if (count.value === 69) text.value = ' Nice'
   if (count.value === 100) text.value = ' 💯'
   if (count.value === 420) text.value = ' 😮‍💨'
